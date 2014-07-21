@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{406B45A1-FFD6-CBD3-8564-FC26C1FC276F}</ProjectGuid>
+	<ProjectGuid>{CB3ACD11-1972-592B-B0A3-B640CAC06174}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\Holoville\HOPath\Editor\HOPathEditor.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorGUI.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorVars.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenPanelMode.cs" />
@@ -54,6 +53,7 @@
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenComponentInspector.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenManagerInspector.cs" />
+     <Compile Include="Assets\Scripts\Editor\HOPathEditor.cs" />
      <None Include="Assets\LeanTween\LeanTweenExamples\Shader\2dUnlitWithFade.shader" />
      <None Include="Assets\HOTween\readme.txt" />
      <None Include="Assets\LeanTween\LeanTween-ReadMe.txt" />
@@ -61,29 +61,29 @@
      <None Include="Assets\Holoville\readme.txt" />
      <None Include="Assets\Editor\HOEditorUtils.xml" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Cary/Documents/itweenTest/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorGUIFramework">
+ <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Assets/Editor/HOEditorGUIFramework.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorUtils">
+ <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Assets/Editor/HOEditorUtils.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>C:/Users/Cary/Documents/itweenTest/Assets/Plugins/HOTween.dll</HintPath>
+ <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Assets/Plugins/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="HOTweenV1_Editor">
- <HintPath>C:/Users/Cary/Documents/itweenTest/Assets/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
+ <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Assets/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
- <Reference Include="HOEditorGUIFramework">
- <HintPath>C:/Users/Cary/Documents/itweenTest/Assets/Editor/HOEditorGUIFramework.dll</HintPath>
- </Reference>
- <Reference Include="HOEditorUtils">
- <HintPath>C:/Users/Cary/Documents/itweenTest/Assets/Editor/HOEditorUtils.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{997CBF72-B285-0AB6-C65D-AAEB67DA5EFD}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{5059D4AF-2684-4AEC-CCC0-649B29B27052}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{45016E25-0296-5E99-19CB-742A9C442F9B}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{199DF2F5-9B63-FC0F-0B62-E922CCB6EB9C}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
