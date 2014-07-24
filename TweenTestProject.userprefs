@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\iTweenExamples\PathControlledCharacter\Scripts\Controller.cs">
     <Files>
-      <File FileName="Assets\Assets\Holoville\HOPath\HOPath.cs" Line="6" Column="1" />
-      <File FileName="Assets\Scripts\CharacterMovement.cs" Line="112" Column="39" />
-      <File FileName="Assets\Assets\Holoville\HOPath\HOPath.cs" Line="6" Column="1" />
-      <File FileName="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" Line="37" Column="1" />
-      <File FileName="Assets\Scripts\Editor\HOPathEditor.cs" Line="17" Column="44" />
+      <File FileName="Assets\Scripts\Gizmos\JumpTrigger.cs" Line="6" Column="30" />
+      <File FileName="Assets\iTweenExamples\PathControlledCharacter\Scripts\Controller.cs" Line="43" Column="30" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="34" Column="2" />
+      <File FileName="Assets\iTweenExamples\PathControlledCharacter\Scripts\PathPoint.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -54,15 +54,10 @@
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenManagerInspector.cs" />
      <Compile Include="Assets\Scripts\Editor\HOPathEditor.cs" />
-     <None Include="Assets\LeanTween\LeanTweenExamples\Shader\2dUnlitWithFade.shader" />
      <None Include="Assets\HOTween\readme.txt" />
-     <None Include="Assets\LeanTween\LeanTween-ReadMe.txt" />
      <None Include="Assets\Editor\HOEditorGUIFramework.xml" />
      <None Include="Assets\Holoville\readme.txt" />
      <None Include="Assets\Editor\HOEditorUtils.xml" />
- <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
  <Reference Include="HOEditorGUIFramework">
  <HintPath>C:/Users/Cary/Documents/GitHub/TweenTestProject/Assets/Editor/HOEditorGUIFramework.dll</HintPath>
  </Reference>

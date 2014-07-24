@@ -54,9 +54,7 @@
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenManagerInspector.cs" />
      <Compile Include="Assets\Scripts\Editor\HOPathEditor.cs" />
-     <None Include="Assets\LeanTween\LeanTweenExamples\Shader\2dUnlitWithFade.shader" />
      <None Include="Assets\HOTween\readme.txt" />
-     <None Include="Assets\LeanTween\LeanTween-ReadMe.txt" />
      <None Include="Assets\Editor\HOEditorGUIFramework.xml" />
      <None Include="Assets\Holoville\readme.txt" />
      <None Include="Assets\Editor\HOEditorUtils.xml" />
@@ -81,8 +79,6 @@
       <Project>{5059D4AF-2684-4AEC-CCC0-649B29B27052}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{199DF2F5-9B63-FC0F-0B62-E922CCB6EB9C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{E39A7838-FE13-0D57-4FCA-837030F5807C}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
